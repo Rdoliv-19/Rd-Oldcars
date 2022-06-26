@@ -1,3 +1,50 @@
 body{
-    background-color:;
+    background-color:black;
+}
+
+.card-estilo{
+    max-width: 15rem;
+}
+
+.imagem-carrocel{
+    height: 600px;
+    object-fit: cover;
+}
+
+.fonte-sobre-nos{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+
+.titulo-sobre{
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+}
+
+.sessao-sobre{
+    margin: 30px 0;
+}
+
+.estilo-botao{
+    background-color: red;
+    padding: 10px;
+    border: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.cor-cards{
+    background-color:lightgray;
+}
+
+.imagens-cards{
+    height: 200px;
+    object-fit: cover;
+}
+
+.imagens-cards-camaro-ss{
+    height: 200px;
+    object-fit: cover;
+    object-position: 0 80%;
 }

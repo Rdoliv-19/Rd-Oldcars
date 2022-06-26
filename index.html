@@ -7,11 +7,17 @@
     <title>Rd Old cars</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style-home.css">
 </head>
 <body>   
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <a class="navbar-brand" href="#">Rd Oldcars</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" 
                 data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
@@ -28,7 +34,7 @@
     </header>
         
     <main>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -36,13 +42,13 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/Charger_RT.jpg" class="d-block w-100" alt="...">
+                <img src="img/Porche.jpg" class="d-block w-100 imagem-carrocel" alt="Porche antigo">
               </div>
               <div class="carousel-item">
-                <img src="img/Porche.jpg" class="d-block w-100" alt="...">
+                <img src="img/painel-instumentos.jpg" class="d-block w-100 imagem-carrocel" alt="Astom Martin antigo">
               </div>
               <div class="carousel-item">
-                <img src="img/painel-instumentos.jpg" class="d-block w-100" alt="...">
+                <img src="img/chevelle.jpg" class="d-block w-100 imagem-carrocel" alt="Dodge antigo">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
@@ -54,6 +60,60 @@
               <span class="sr-only">Next</span>
             </button>
           </div>
+
+          <section class="sessao-sobre">
+            <h2 class="titulo-sobre">Sobre nós</h2>
+            <p class="fonte-sobre-nos">A Rd Oldcars oferece carros com história, carros clássicos que carregam lembranças.
+            Prezamos pela transparência na venda de carros antigos, 
+            tendo como primordial objetivo a cumplicidade com seus clientes.</p>
+            <p class="fonte-sobre-nos">São estas características que nos levam a busca incansável da excelência, 
+            oferecendo aos seus clientes um alto nível de atendimento proporcionando total segurança na 
+            compra do seu carro. Na Rd Oldcars existe uma diferença crucial entre preço e 
+            valor de cada automóvel. Nossa visão é ganhar com o cliente e jamais do cliente.
+            Um cliente satisfeito significa um negócio bom para ambas as partes.</p>            
+          </section>
+
+          <section class="container">
+            <div class="row justify-content-center">
+              <article class="card cor-cards card-estilo p-0 m-3 col-12 col-md-3 col-lg-3">
+                <img src="img/bmw.jpg" class="card-img-top imagens-cards" alt="BMW Antiga">
+                <div class="card-body">
+                  <h5 class="card-title">BMW M3</h5>
+                  <p class="card-text">Carros classicos com procedência</p>
+                  <a href="#" class="estilo-botao">Entre em contato</a>
+                </div>
+              </article>
+
+              <article class="card cor-cards card-estilo p-0 m-3 col-12 col-md-3 col-lg-3">
+                <img src="img/astom-p-b.jpg" class="card-img-top imagens-cards" alt="Astom Martin preta e branca">
+                <div class="card-body">
+                  <h5 class="card-title">Astom Martin</h5>
+                  <p class="card-text">Carros classicos com procedência</p>
+                  <a href="#" class="estilo-botao">Entre em contato</a>
+                </div>
+              </article>
+
+              <article class="card cor-cards card-estilo m-3 p-0 col-12 col-md-3 col-lg-3">
+                <img src="img/fila-old.jpg" class="card-img-top imagens-cards" alt="fila de carros">
+                <div class="card-body">
+                  <h5 class="card-title">Fila</h5>
+                  <p class="card-text">Carros classicos com procedência</p>
+                  <a href="#" class="estilo-botao">Entre em contato</a>
+                </div>
+              </article>
+
+              <article class="card cor-cards card-estilo m-3 p-0 col-12 col-md-3 col-lg-3">
+                <img src="img/ss.jpg" class="card-img-top imagens-cards-camaro-ss" alt="camaro SS">
+                <div class="card-body">
+                  <h5 class="card-title">Camaro SS</h5>
+                  <p class="card-text">Carros classicos com procedência</p>
+                  <a href="#" class="estilo-botao">Entre em contato</a>
+                </div>
+
+                
+              </article>
+            </div> 
+          </section>
 
     </main>
     <footer></footer>
