@@ -48,3 +48,14 @@ body{
     object-fit: cover;
     object-position: 0 80%;
 }
+
+.sessao-cards{
+    margin: 0 0 50px 0;
+}
+
+.mapa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px 0;
+}
