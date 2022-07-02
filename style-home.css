@@ -121,6 +121,29 @@ footer p{
 
 
 
+.quem-somos{
+    width: 940px;
+    margin: 100px auto;
+    
+}
+
+.texto-quem-somos{
+    display: inline-block;
+}
+
+.quem-somos p{
+    color: white;
+    font-size: 20px;
+}
+
+.imagem-quem-somos{
+    width: 200px;
+    float:left;
+	margin: 0 20px 20px 0;     
+}
+
+
+
 // Responsividade
 
 @media screen and (max-width:480px){
