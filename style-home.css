@@ -17,11 +17,6 @@ body{
     color: grey;
 }
 
-.titulo-sobre{
-    font-family: 'Montserrat', sans-serif;
-    color: gray;
-}
-
 .sessao-sobre{
     display: flex;
     flex-direction: column;
@@ -60,16 +55,67 @@ body{
 .mapa{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+   
     align-items: center;
     margin: 50px 0;
 }
 
-.titulo-mapa{
+.titulo{
     font-family: 'Cormorant Garamond', serif;
     color:grey;
     margin: 0 0 20px 0;
 }
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer{
+    margin: 80px 0;
+    
+}
+
+footer p{
+    color: white;
+}
+
+.logo-redes{
+    margin-right: 10px;
+    width: 24px;
+}
+
+.texto-footer{
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.botao{
+    background-color: sienna;
+    border-radius:10px ;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 1s all;
+}
+
+.botao:hover{
+    transform: scale(1.2);
+}
+
+
 
 // Responsividade
 
