@@ -1,0 +1,133 @@
+body{
+    background-color:black;
+}
+
+.fonte-sobre-nos{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: grey; 
+}
+
+.fonte-main{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: grey;
+    margin-right: 50px; 
+}
+
+.sessao-imagens{
+    margin: 0 0 100px 0;
+}
+
+.fonte-main-meio{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: grey;
+    margin-left: 50px; 
+}
+
+.sobre{
+    width: 940px;
+    margin: 100px auto;
+}
+
+.sobre-texto{
+    width: 400px;
+}
+
+.texto-quem-somos{
+    display: inline-block;
+}
+
+.quem-somos p{
+    color: white;
+    font-size: 20px;
+}
+
+.imagem-quem-somos{
+    width: 200px;
+    float:left;
+	margin: 0 20px 20px 0;     
+}
+
+.titulo{
+    font-family: 'Cormorant Garamond', serif;
+    color:grey;
+    margin: 0 0 20px 0;
+}
+
+.carro{
+    object-fit: cover;
+    object-position: 0 60%;
+    width: 400px;
+    height: 300px;
+}
+
+.sobre-topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-meio{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer{    
+    background: linear-gradient(black, white );   
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    color:black;
+}
+
+.logo-redes{
+    margin-right: 10px;
+    width: 24px;
+}
+
+.texto-footer{
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.botao{
+    background-color: sienna;
+    border-radius:10px ;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 1s all;
+}
+
+.botao:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+// Responsividade
+
+@media screen and (max-width:480px){
+    .sessao-sobre {
+        
+    }
+}
