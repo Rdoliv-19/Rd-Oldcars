@@ -1,0 +1,88 @@
+body{
+    background-color:black;
+}
+
+.fonte-sobre-nos{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: grey; 
+}
+
+.titulo{
+    font-family: 'Cormorant Garamond', serif;
+    color:grey;
+    margin: 0 0 20px 0;
+}
+
+.conteudo-formulario{
+    width: 940px;
+    margin: 80px auto;
+}
+
+.label{
+    color: white;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 0 0 10px 0;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer{    
+    background: linear-gradient(black, white );   
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    color:black;
+}
+
+.logo-redes{
+    margin-right: 10px;
+    width: 24px;
+}
+
+.texto-footer{
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.botao{
+    background-color: sienna;
+    border-radius:10px ;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 1s all;
+}
+
+.botao:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+// Responsividade
+
+@media screen and (max-width:480px){
+    .sessao-sobre {
+        
+    }
+}
