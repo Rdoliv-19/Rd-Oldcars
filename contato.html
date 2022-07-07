@@ -37,18 +37,34 @@
         <main>
             <form>
                 <fieldset class="conteudo-formulario">
-                    <label for="Nome e sobrenome" class="label fonte-sobre-nos">Nome e Sobrenome</label>
+                    <label for="Nome e sobrenome" class="label fonte">Nome e Sobrenome</label>
                     <input type="text" id="Nome e sobrenome" class="formulario" placeholder="Nome completo">
 
-                    <label for="email" class="label fonte-sobre-nos">Email</label>
+                    <label for="email" class="label fonte">Email</label>
                     <input type="text" id="email" class="formulario" placeholder="email@dominio">
 
-                    <label for="telefone" class="label fonte-sobre-nos">Telefone</label>
+                    <label for="telefone" class="label fonte">Telefone</label>
                     <input type="text" id="telefone" class="formulario" placeholder="(xx) xxxxx-xxxx">
 
-                    <label for="Veículo" class="label fonte-sobre-nos">Veículo</label>
+                    <label for="Veículo" class="label fonte">Veículo</label>
                     <input type="text" id="veículo" class="formulario" placeholder="Modelo">
 
+                    <label for="ano" class="label fonte">Ano</label>
+                    <input type="text" id="veículo" class="formulario-ano" placeholder="xxxx">
+
+                    <textarea class="formulario" rows="5" cols="50" placeholder="Deixe aqui sua mensagem"></textarea>
+
+                    <fieldset class="botoes-contato fonte">
+                        <p>Como prefere o nosso contato ?</p>
+                        <label for="radio-watsapp"><input type="radio" name="contato" value="watsapp" id="radio-watsapp" checked>Watsapp</label>
+                        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    </fieldset>
+
+                    <p class="fonte"><input type="checkbox" checked> Gostaria de receber nossas novidades por email ?</p>
+
+                    <input type="button" value="Enviar" class="botao">
+                    
 
                 </fieldset>
             </form>

@@ -2,7 +2,7 @@ body{
     background-color:black;
 }
 
-.fonte-sobre-nos{
+.fonte{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: grey; 
@@ -29,7 +29,23 @@ body{
     width: 400px;
     border-radius: 5px;
     padding: 5px 15px;
+    margin: 0 0 5px 0;
+}
+
+.formulario-ano{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px 15px;
     margin: 0 0 10px 0;
+}
+
+.botoes-contato{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 20px 0;
 }
 
 .rodape{
