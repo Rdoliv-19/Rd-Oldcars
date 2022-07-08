@@ -152,10 +152,25 @@ footer p{
 
 
 
-// Responsividade
-
 @media screen and (max-width:480px){
     .sessao-sobre {
-        
+        width: auto;
+    }
+
+    .card-estilo{
+        max-width: 10rem;
+    }
+
+    .estilo-botao{
+        background-color:red;
+        padding: 5px;
+        border-radius: 10px;
+        color: white;
+        font-size: 13px;
+    }
+
+    .card-title{
+        font-size: 16px;
+        font-weight: bold;
     }
 }
