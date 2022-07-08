@@ -83,6 +83,11 @@ body{
     justify-content: space-around;
 }
 
+.logo-git{
+    margin-left: 10px;
+    width: 24px;
+}
+
 footer{    
     background: linear-gradient(black, white );   
 }

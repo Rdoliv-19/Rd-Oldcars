@@ -26,11 +26,12 @@ body{
 }
 
 .estilo-botao{
-    background-color: red;
+    background-color:red;
     padding: 10px;
     border: 10px;
     border-radius: 10px;
     color: white;
+    transition: 1s all;
 }
 
 .cor-cards{
@@ -97,6 +98,13 @@ footer p{
 .logo-redes{
     margin-right: 10px;
     width: 24px;
+}
+
+.logo-git{
+    margin-left: 10px;
+    width: 24px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .texto-footer{

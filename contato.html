@@ -26,48 +26,49 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" href="#">Início <span class="sr-only">(current)</span></a>
+                    <a class="nav-link active" href="index.html">Início <span class="sr-only">(current)</span></a>
                     <a class="nav-link" href="quem-somos.html">Quem somos</a>
-                    <a class="nav-link ">Contato</a>
+                    <a class="nav-link" href="contato.html">Contato</a>
                 </div>
                 </div>
             </nav>
         </header>
 
         <main>
-            <form>
-                <fieldset class="conteudo-formulario">
-                    <label for="Nome e sobrenome" class="label fonte">Nome e Sobrenome</label>
-                    <input type="text" id="Nome e sobrenome" class="formulario" placeholder="Nome completo">
+            <div class="posicionamento-formulario">
+                <form>
+                    <fieldset>
+                        <label for="Nome e sobrenome" class="label fonte">Nome e Sobrenome</label>
+                        <input type="text" id="Nome e sobrenome" class="formulario" placeholder="Nome completo">
 
-                    <label for="email" class="label fonte">Email</label>
-                    <input type="text" id="email" class="formulario" placeholder="email@dominio">
+                        <label for="email" class="label fonte">Email</label>
+                        <input type="text" id="email" class="formulario" placeholder="email@dominio">
 
-                    <label for="telefone" class="label fonte">Telefone</label>
-                    <input type="text" id="telefone" class="formulario" placeholder="(xx) xxxxx-xxxx">
+                        <label for="telefone" class="label fonte">Telefone</label>
+                        <input type="text" id="telefone" class="formulario" placeholder="(xx) xxxxx-xxxx">
 
-                    <label for="Veículo" class="label fonte">Veículo</label>
-                    <input type="text" id="veículo" class="formulario" placeholder="Modelo">
+                        <label for="Veículo" class="label fonte">Veículo</label>
+                        <input type="text" id="veículo" class="formulario" placeholder="Modelo">
 
-                    <label for="ano" class="label fonte">Ano</label>
-                    <input type="text" id="veículo" class="formulario-ano" placeholder="xxxx">
+                        <label for="ano" class="label fonte">Ano</label>
+                        <input type="text" id="veículo" class="formulario-ano" placeholder="xxxx">
 
-                    <textarea class="formulario" rows="5" cols="50" placeholder="Deixe aqui sua mensagem"></textarea>
+                        <textarea class="formulario" rows="5" cols="50" placeholder="Deixe aqui sua mensagem"></textarea>
 
-                    <fieldset class="botoes-contato fonte">
-                        <p>Como prefere o nosso contato ?</p>
-                        <label for="radio-watsapp"><input type="radio" name="contato" value="watsapp" id="radio-watsapp" checked>Watsapp</label>
-                        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
-                        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                        <fieldset class="botoes-contato fonte">
+                            <p>Como prefere o nosso contato ?</p>
+                            <label for="radio-watsapp"><input type="radio" name="contato" value="watsapp" id="radio-watsapp" checked>Watsapp</label>
+                            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                        </fieldset>
+
+                        <p class="fonte"><input type="checkbox" checked> Gostaria de receber nossas novidades por email ?</p>
+
+                        <input type="button" value="Enviar" class="botao">
                     </fieldset>
-
-                    <p class="fonte"><input type="checkbox" checked> Gostaria de receber nossas novidades por email ?</p>
-
-                    <input type="button" value="Enviar" class="botao">
-                    
-
-                </fieldset>
-            </form>
+                </form>
+                <img src="img/carro-vermelho.jpg" class="imagem-formulario">
+            </div>
         </main>
     </body>
 
@@ -95,7 +96,9 @@
             </div>
         </section>
         
-        <p>Desenvolvido por Rodrigo Oliveira</p>
+        <p>Desenvolvido por Rodrigo Oliveira<a href="https://github.com/Rdoliv-19">
+            <img src="img/github.png" class="logo-git"></a></p>
+    
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
