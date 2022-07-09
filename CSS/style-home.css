@@ -56,9 +56,9 @@ body{
 .mapa{
     display: flex;
     flex-direction: column;
-   
     align-items: center;
     margin: 50px 0;
+   
 }
 
 .titulo{
@@ -172,5 +172,9 @@ footer p{
     .card-title{
         font-size: 16px;
         font-weight: bold;
+    }
+
+    .mapa-conteudo{
+        width: auto;
     }
 }
