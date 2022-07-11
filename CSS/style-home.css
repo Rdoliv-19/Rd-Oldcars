@@ -6,6 +6,11 @@ body{
     max-width: 15rem;
 }
 
+.logo{
+    width: 150px;
+    margin-left: 50px;
+}
+
 .imagem-carrocel{
     height: 600px;
     object-fit: cover;
@@ -89,10 +94,12 @@ body{
     justify-content: space-around;
 }
 
+.caixa-footer{
+    width: 350px;
+}
+
 footer{
-    
     background: linear-gradient(black, white );
-       
 }
 
 footer p{
@@ -103,6 +110,8 @@ footer p{
 }
 
 .logo-redes{
+    display: flex;
+    flex-direction: row;
     margin-right: 10px;
     width: 24px;
 }
@@ -111,7 +120,6 @@ footer p{
     margin-left: 10px;
     width: 24px;
     font-family: 'Roboto', sans-serif;
-
 }
 
 .texto-footer{
@@ -151,10 +159,16 @@ footer p{
 	margin: 0 20px 20px 0;     
 }
 
+.assinatura{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 
 
 @media screen and (max-width:480px){
-    .sessao-sobre, .mapa-conteudo, .rodape, .inscreva-se{
+    .sessao-sobre, .mapa-conteudo, .rodape, .video-conteudo{
         width: auto;
     }
 
@@ -170,22 +184,41 @@ footer p{
         font-size: 12px;
     }
 
-    .card-title{
+    .card-title{ 
         font-size: 15px;
         font-weight: bold;
     }
 
-    .video-conteudo{
-        width: auto;
-    }
-
-    .rodape, .inscreva-se{
+    .rodape{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items:center;
+        align-items:center ;
+        margin: 150px 0;
+    }
+
+    .caixa-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-redes, .logo-git{
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+        width: 24px;
+    }
+
+    .texto-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        border-radius: 10px;
+        padding: 5px 10px;
+        margin-right: 5px;
     }
 
 
-
-}
+}    

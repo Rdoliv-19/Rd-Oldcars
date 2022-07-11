@@ -8,6 +8,11 @@ body{
     color: grey; 
 }
 
+.logo{
+    width: 150px;
+    margin-left: 50px;
+}
+
 .fonte-main{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -124,15 +129,33 @@ footer p{
 }
 
 
-
-
-
-
-
-// Responsividade
-
 @media screen and (max-width:480px){
-    .sessao-sobre {
-        
+    .sobre, .sobre-texto{
+        width: auto;
+        margin: 30px 10px;
     }
+
+    .sobre-topo, .sobre-meio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 100px 10px;
+
+    }
+
+    .sobre-meio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 100px 10px;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 }

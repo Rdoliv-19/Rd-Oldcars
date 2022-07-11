@@ -8,6 +8,11 @@ body{
     color: grey; 
 }
 
+.logo{
+    width: 150px;
+    margin-left: 50px;
+}
+
 .titulo{
     font-family: 'Cormorant Garamond', serif;
     color:grey;
