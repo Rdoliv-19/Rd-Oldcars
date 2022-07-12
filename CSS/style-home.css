@@ -23,10 +23,8 @@ body{
 }
 
 .sessao-sobre{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 940px;
+    position: relative;
+    width: 900px;
     margin: 30px auto;
 }
 
@@ -95,7 +93,7 @@ body{
 }
 
 .caixa-footer{
-    width: 350px;
+    width: 250px;
 }
 
 footer{
@@ -106,7 +104,6 @@ footer p{
     display: flex;
     justify-content: center;
     color:black;
-    
 }
 
 .logo-redes{
@@ -124,7 +121,6 @@ footer p{
 
 .texto-footer{
     border-radius: 10px;
-    padding: 5px 10px;
     margin-right: 5px;
 }
 
@@ -168,8 +164,10 @@ footer p{
 
 
 @media screen and (max-width:480px){
-    .sessao-sobre, .mapa-conteudo, .rodape, .video-conteudo{
+    .sessao-sobre, .mapa-conteudo, .rodape, .video-conteudo, .imagem-carrocel, .carousel slide{
         width: auto;
+        text-align: center;
+        
     }
 
     .card-estilo{
@@ -194,7 +192,7 @@ footer p{
         flex-direction: column;
         justify-content: center;
         align-items:center ;
-        margin: 150px 0;
+        margin: 50px 0;
     }
 
     .caixa-footer{
@@ -211,13 +209,9 @@ footer p{
         width: 24px;
     }
 
-    .texto-footer{
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        border-radius: 10px;
-        padding: 5px 10px;
-        margin-right: 5px;
+    .logo{
+        width: 150px;
+        margin-left: 0px;
     }
 
 

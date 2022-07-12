@@ -20,9 +20,6 @@ body{
     margin-right: 50px; 
 }
 
-.sessao-imagens{
-    margin: 0 0 100px 0;
-}
 
 .fonte-main-meio{
     font-family: 'Roboto', sans-serif;
@@ -31,13 +28,14 @@ body{
     margin-left: 50px; 
 }
 
-.sobre{
-    width: 940px;
-    margin: 100px auto;
-}
 
 .sobre-texto{
     width: 400px;
+}
+
+.texto-topo{
+    width: 940px;
+    margin: 100px auto;
 }
 
 .texto-quem-somos{
@@ -88,6 +86,10 @@ body{
     justify-content: space-around;
 }
 
+.caixa-footer{
+    width: 350px;
+}
+
 .logo-git{
     margin-left: 10px;
     width: 24px;
@@ -130,9 +132,10 @@ footer p{
 
 
 @media screen and (max-width:480px){
-    .sobre, .sobre-texto{
+    .sobre-texto, .rodape{
         width: auto;
-        margin: 30px 10px;
+        text-align: justify;
+        margin: 30px 0px;
     }
 
     .sobre-topo, .sobre-meio{
@@ -140,22 +143,52 @@ footer p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 100px 10px;
-
+        width: auto;
     }
+    
 
-    .sobre-meio{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 100px 10px;
+    .card-estilo{
+        max-width: 9rem;
     }
 
     .rodape{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items:center ;
+        margin: 150px 0;
     }
 
+    .caixa-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-redes, .logo-git{
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+        width: 24px;
+    }
+
+    .logo{
+        width: 150px;
+        margin-left: 0px;
+    }
+
+    .texto-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        padding: 5px 0px;
+    }
+
+    .carro{
+        object-fit: cover;
+        object-position: 0 60%;
+        width: 300px;
+        height: 300px;
+    }
 }
