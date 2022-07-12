@@ -47,6 +47,10 @@ body{
     font-size: 20px;
 }
 
+.imagens{
+    margin: 50px auto;
+}
+
 .imagem-quem-somos{
     width: 200px;
     float:left;
@@ -122,8 +126,6 @@ footer p{
     padding: 5px 10px;
     color: white;
     font-weight: bold;
-    text-transform: uppercase;
-    transition: 1s all;
 }
 
 .botao:hover{
