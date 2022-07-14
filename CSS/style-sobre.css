@@ -84,6 +84,13 @@ body{
     align-items: center;
 }
 
+.sobre-fim{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
 .rodape{
     display: flex;
     flex-direction: row;
@@ -135,31 +142,57 @@ footer p{
 
 
 @media screen and (max-width:480px){
-    .sobre-texto, .rodape{
-        width: auto;
+     .navbar, .texto-assinatura, .rodape, .carro 
+    {
+        width: 100%;
         text-align: justify;
-        margin: 30px 0px;
     }
 
-    .sobre-topo, .sobre-meio{
+    .texto-topo{
+        width: 85%;
+        text-align:start;
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .imagem-quem-somos{
+        width: 200px;
+    }
+
+    .sobre-topo{
+        display: flex;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        width: auto;
     }
-    
 
-    .card-estilo{
-        max-width: 9rem;
+    .sobre-meio{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
+
+    .sobre-fim{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-texto{
+        width: 90%;
+        margin: 25px 0;
+    }
+
 
     .rodape{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items:center ;
-        margin: 150px 0;
+        margin: 50px 0;
     }
 
     .caixa-footer{
@@ -169,11 +202,16 @@ footer p{
         justify-content: center;
     }
 
+    .texto-footer{
+       font-size: 14px;
+       width: 70%;
+    }
+
     .logo-redes, .logo-git{
         display: flex;
         flex-direction: row;
-        margin-right: 10px;
         width: 24px;
+        align-items: center;
     }
 
     .logo{
@@ -181,17 +219,5 @@ footer p{
         margin-left: 0px;
     }
 
-    .texto-footer{
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        padding: 5px 0px;
-    }
 
-    .carro{
-        object-fit: cover;
-        object-position: 0 60%;
-        width: 300px;
-        height: 300px;
-    }
-}
+}    
