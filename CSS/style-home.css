@@ -93,7 +93,7 @@ body{
 }
 
 .caixa-footer{
-    width: 250px;
+    width: 350px;
 }
 
 footer{
@@ -124,6 +124,11 @@ footer p{
     margin-right: 5px;
 }
 
+.input-texto{
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
 .botao{
     background-color: sienna;
     border-radius:10px ;
@@ -131,7 +136,11 @@ footer p{
     color: white;
     font-weight: bold;
     text-transform: uppercase;
- 
+    transition: 1s all;
+}
+
+.botao:hover{
+    transform: scale(1.2);
 }
 
 .quem-somos{
@@ -164,14 +173,21 @@ footer p{
 
 
 @media screen and (max-width:480px){
-    .sessao-sobre, .mapa-conteudo, .rodape, .video-conteudo, .imagem-carrocel, .carousel slide{
-        width: auto;
-        text-align: center;
+    .container, .navbar, .texto-assinatura, .rodape, 
+    .carousel slide{
         
+        width: 100%;
+        text-align: justify;
+    }
+
+    .sessao-sobre, .mapa-conteudo, .video-conteudo{
+        width: 85%;
+        text-align: justify;
     }
 
     .card-estilo{
-        max-width: 9rem;
+        max-width: 8rem;
+        max-height: 26rem;
     }
 
     .estilo-botao{
@@ -179,7 +195,7 @@ footer p{
         padding: 5px;
         border-radius: 10px;
         color: white;
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .card-title{ 
@@ -202,10 +218,14 @@ footer p{
         justify-content: center;
     }
 
+    .texto-footer{
+       font-size: 14px;
+       width: 70%;
+    }
+
     .logo-redes, .logo-git{
         display: flex;
         flex-direction: row;
-        margin-right: 10px;
         width: 24px;
     }
 

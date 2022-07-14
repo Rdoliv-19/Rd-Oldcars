@@ -126,6 +126,7 @@ footer p{
     padding: 5px 10px;
     color: white;
     font-weight: bold;
+    transition: 1s all;
 }
 
 .botao:hover{
