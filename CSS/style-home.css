@@ -173,7 +173,7 @@ footer p{
 
 
 @media screen and (max-width:480px){
-    .container, .navbar, .texto-assinatura, .rodape, 
+    .container, .navbar, .texto-assinatura, .rodape
     .carousel slide{
         
         width: 100%;
@@ -232,6 +232,10 @@ footer p{
     .logo{
         width: 150px;
         margin-left: 0px;
+    }
+
+    .botao{
+        margin-top: 20px;
     }
 
 
