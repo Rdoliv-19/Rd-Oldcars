@@ -1,6 +1,9 @@
 ## :star2: Sobre o projeto
  
-<p>Este projeto foi desenvolvido para praticar a aplicação do Bootstrap, </p>
+<p>Este projeto foi desenvolvido para praticar a aplicação do Bootstrap, a adição de elementos como a Navbar, carrocel de imagens, cards na versão desktop
+e reposposivo para mobile mobile. Ultilização de fontes externas do google, iframe de vídeo e mapa para a página inicial. A ultilização do Flexbox
+também é muito presente no projeto para o posicionamento dos textos, imagens e divisões da página.
+ </p>
 
 Link do projeto: https://rd-oldcars.vercel.app/
 
